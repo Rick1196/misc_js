@@ -1,0 +1,40 @@
+html {
+    font-size: 100%;
+    ;
+    box-sizing: border-box;
+}
+
+*,
+*::before::after {
+    box-sizing: inherit;
+}
+
+.grid-container {
+    width: auto;
+}
+.grid-row{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+.grid-item{
+    height: 50px;
+    width: 50px;
+    border: solid 1px #000;
+}
+.available{
+    cursor: pointer;
+}
+.taken{
+    cursor: not-allowed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.disabled{
+    border: solid 1px #161616;
+    background-color: #534d4d;
+}::hover{
+    cursor: not-allowed;
+
+}
