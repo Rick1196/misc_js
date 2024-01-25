@@ -1,0 +1,25 @@
+.screen {
+  height: 400px;
+  width: 240px;
+  min-height: 400px;
+  min-width: 250px;
+  background-color: transparent;
+  border: #000 1px solid;
+  border-radius: 30px;
+}
+.items-container {
+  padding: 2rem;
+  display: grid;
+  gap: 5px;
+  grid-auto-rows: 4rem;
+  grid-template-columns: repeat(auto-fill, minmax(3rem, 1fr));
+}
+.item {
+  border: #000 1px solid;
+  height: 50px;
+  width: 50px;
+  min-height: 50px;
+  min-width: 50px;
+  border-radius: 15px;
+  cursor: pointer;
+}
