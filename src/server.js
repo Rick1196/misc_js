@@ -7,7 +7,8 @@ const baseFileRegex = /\/[\w\d]*[^\.]$/g
 
 const routes = {
     '/phone':"phone/index",
-    '/ticTacToe':"tic-tac-toe/index"
+    '/ticTacToe':"tic-tac-toe/index",
+    '/tree':"tree/index"
 }
 
 const redirectTo = (url, extension) => 
