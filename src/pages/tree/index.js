@@ -36,7 +36,7 @@ const addElement = (value) => {
     addLeaf(value, root);
   }
 };
-
+console.log("debug", "hello from tree")
 document.addEventListener("DOMContentLoaded", () => {
   function setFormListener() {
     const form = document.getElementById("form");
